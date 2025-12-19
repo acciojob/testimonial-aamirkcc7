@@ -1,16 +1,24 @@
-/*  your css code here. If applicable */
-.testimonials{
-padding:20px;
-background-color:#f5f5f5;
+body {
+    background-color: #f5f5f5; /* Background color for the section */
+}
 
+.testimonial-container {
+    padding: 20px; /* Padding for the main container */
+    background-color: #f5f5f5; /* Background color for the main container */
 }
-.testimonial{
-padding:20px;
-border:1px solid #ccc;
-background-color:#fff;
-margin-bottom:10px;
+
+.testimonial {
+    padding: 15px; /* Padding for each testimonial box */
+    border: 1px solid #ccc; /* Border for each testimonial box */
+    background-color: white; /* Background color for each testimonial box */
+    margin-bottom: 15px; /* Space between testimonials */
 }
-.author{
-text-align:right;
-font-style:italic;
+
+.testimonial-text {
+    font-size: 16px; /* Normal text styling */
+}
+
+.author {
+    text-align: right; /* Align author text to the right */
+    font-style: italic; /* Italic style for author name */
 }
